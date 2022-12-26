@@ -16,7 +16,7 @@ import {
 
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:5000'
+const baseUrl = 'https://staff-app-api.onrender.com/'
 
 const logout = (dispatch) => {
     localStorage.removeItem('staffInfo');
